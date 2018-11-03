@@ -49,6 +49,9 @@ mvn clean install
 ```
 mvn spring-boot:run
 ```
+#### <i class="icon-refresh"> Open the web app in your browser </i>
+
+<a href="http://localhost:8090/" target="_blank">http://localhost:8090/</a>
 
 #### <i class="icon-refresh"> Additional Testing </i>
 Use the /src/test/resources files to perform some *curl* back-end testing
@@ -110,6 +113,3 @@ Connection: close
 {"validFileSize":false,"failed":true}
 ```
 
-#### <i class="icon-refresh"> Open the web app in your browser </i>
-
-<a href="http://localhost:8090/" target="_blank">http://localhost:8090/</a>

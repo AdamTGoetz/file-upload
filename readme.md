@@ -20,12 +20,12 @@ JUnit : <a href="http://junit.org/junit4/" target="_blank">http://junit.org/juni
 OWASP - Unrestricted File Upload : <a href="https://www.owasp.org/index.php/Unrestricted_File_Upload" target="_blank">https://www.owasp.org/index.php/Unrestricted_File_Upload</a> <br/>
 
 #### <i class="icon-cog">Settings</i>
-1.- If you haven't already done, please clone this repository
+1. Clone this repository
 ```
 git clone git remote add origin https://github.com/AdamTGoetz/file-upload.git
 ```
 
-2.- <i class="icon-pencil"></i> Review src/main/resources/application.properties file before building
+2. <i class="icon-pencil"></i> Review src/main/resources/application.properties file before building
 
 > server.port=8090 <br/>
 > spring.http.multipart.max-file-size=3MB <br/>

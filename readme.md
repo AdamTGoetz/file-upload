@@ -70,6 +70,7 @@ Connection: close
 
 {"virusFree":true,"failed":true,"validFileExtension":true,"validContentType":false}
 ```
+- - - -
 ```
 curl -i -X POST http://localhost:8090/upload
 ```
@@ -80,7 +81,7 @@ Accept: multipart/form-data
 Content-Length: 0
 Date: Thu, 27 Jul 2017 19:13:29 GMT
 ```
-
+- - - -
 ```
 curl -i -X POST -F file=@libre-office-csv-file.csv http://localhost:8090/upload
 ```
@@ -95,8 +96,7 @@ Date: Thu, 27 Jul 2017 19:17:36 GMT
 
 {"virusFree":true,"failed":false,"validFileExtension":true,"validContentType":true}
 ```
-
-
+- - - -
 ```
 curl -i -X POST -F file=@FL_insurance_sample.csv http://localhost:8090/upload
 ```

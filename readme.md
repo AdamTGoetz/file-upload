@@ -1,6 +1,6 @@
-A security in mind file uploading web app
+file uploading web app
 =
-This a proof-of-concept project to show how to implement a secure file uploading web app using open source software & libraries: <br/>
+implement a file uploading web app using open source software & libraries: <br/>
 **Build/Deploy** <br/>
 Java 8 : <a href="http://openjdk.java.net/" target="_blank">http://openjdk.java.net/</a> | <a href="http://www.oracle.com/technetwork/java/index.html" target="_blank">http://www.oracle.com/technetwork/java/index.html</a> <br/>
 Maven : <a href="https://maven.apache.org/" target="_blank">https://maven.apache.org/</a> <br/>
